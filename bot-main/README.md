@@ -1,5 +1,5 @@
 # bot
-Bot for Discord that distorts audio files.
+Bot for Discord that bass boosts audio files, and distorts images, gifs, and video files. 
 
 # Development Environment Setup
 In order to get the C code working (and, incidentally, the ffmpeg code), the
@@ -52,15 +52,3 @@ Now, to build the various compiled code, just run build.sh:
 `./build.sh`
 
 This will build the C code and the image/video processing C++ code.
-
-### Note on git
-
-The way I personally use git is unfortunately somewhat inconvenient. Essentially,
-I have git open on a regular windows command prompt, even though I am using MinGW
-for everything else.
-
-This is because the git program installed on MinGW is, I believe, not interchangeable
-with the git you usually install on Windows.
-
-So, if you *already* have the directory cloned, you will probably want to use your
-existing git installation for switching branches and committing, etc.
