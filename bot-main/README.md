@@ -1,6 +1,9 @@
 # bot
 Bot for Discord that bass boosts audio files, and distorts images, gifs, and video files. 
 
+# Contributors
+Ben Tate, Kevin Daniels, Charles Crum
+
 # Development Environment Setup
 In order to get the C code working (and, incidentally, the ffmpeg code), the
 recommended development environment is MinGW when on Windows.
